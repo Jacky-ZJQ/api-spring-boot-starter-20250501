@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author: Jacky.Z
  * @date: 2025/5/1 15:33
- * @description：策略接口，提供导入流程实现支撑
+ * @description: 策略模式， IExcelStrategyProcess 定义了Excel导入流程的各个具体处理步骤
  */
 public interface IExcelStrategyProcess {
 

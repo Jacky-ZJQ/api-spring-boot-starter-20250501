@@ -17,6 +17,7 @@ public abstract class AbstractBaseImportExcel implements IExcelStrategyProcess {
 
     private final Logger logger = LoggerFactory.getLogger(AbstractBaseImportExcel.class);
 
+    @Override
     public void doCheck(List<?> qualifiedExcelDataList, List<DataImportLog> importLogList) {
         if (importLogList.isEmpty()) {
             this.logger.error("校验数据为空");
